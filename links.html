@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>website</title>
+        <link rel="stylesheet" href="links.css" />
     </head>
 
     <body>
-        <h1>跳出式網頁</h1>
+        <h1 id="C4">跳出式網頁</h1>
         <a href="https://www.w3schools.com/" target="_blank">w3s網站(跳出式)</a> <!--target控制網頁跳出來的方式-->
 
         <!--absolute URLs vs relative URLs-->
@@ -31,7 +32,7 @@
 
         <!--email連結-->
         <h2>email寄送連結</h2>
-        <a href="mailto:someone@example.com">Send email</a>
+        <a href="mailto:someone@example.com" style="background-color: #f44336; color: white; padding: 15px 25px; text-align: center; text-decoration: none; display: inline-block;">Send email</a>
 
         <!--按鈕連結-->
         <h2>按鈕連結</h2>
@@ -40,5 +41,9 @@
         <!--title-->
         <h2>連結標題(滑鼠移到上面顯示的文字)</h2>
         <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+
+        <!--bookmark-->
+        <h2>bookmark可以直接跳到網頁的某個地方(用id來跳)</h2>
+        <a href="#C4">Jump to Chapter 4</a>
     </body>
 </html>
